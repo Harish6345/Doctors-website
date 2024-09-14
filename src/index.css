@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active hr{
+  @apply block
+}
+*{
+  font-family: "poppins", sans-serif;
+}
+::-webkit-scrollbar{
+  @apply hidden;
+}
